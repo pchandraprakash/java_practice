@@ -1,0 +1,49 @@
+Below are the core concepts of Object Oriented Programming;
+- Inheritance
+- Encapsulation
+- Abstraction
+- Polymorphism
+
+Inheritance: Is a process of acquiring properties/characteristics from parent class to child class
+Parent class aka super or base class and Child class aka subclass or derived class
+
+There are 4 types of inheritance;
+single, multilevel, hierarchical and hybrid
+
+single inheritance:
+
+Class A
+{
+---
+}
+Class B extends A {
+---
+}
+
+multilevel inheritance
+
+Class A{
+---
+}
+Class B extends A{
+---
+}
+Class C extends B{
+---
+}
+
+hierarchical inheritance:
+
+Class A{
+---
+}
+Class B extends A{
+---
+}
+Class C extends A{
+---
+}
+
+hybrid inheritance: aka Diamond Problem
+this functionality is not supported by java but can be achieved through interfaces.
+ex: class A is a parent class for class B and C, whereas Class B and C are the parent class of D
