@@ -1,0 +1,21 @@
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+Another way, it shows only important things to the user and hides the internal details for example answering a call, 
+you just swipe green option and answer the call. You don't know the internal processing about the call transmission.
+
+Abstraction lets you focus on what the object does instead of how it does it.
+Ways to achieve Abstraction
+
+There are two ways to achieve abstraction in java
+
+- Abstract class (0 to 100% abstraction)
+- Interface (100% abstraction)
+
+Abstract Class:
+An abstract class may contain abstract and concrete methods
+An abstract class cannot be instantiated
+multiple inheritance is not possible using abstract class
+
+Interface:
+Its a collection of abstract methods
+It does not contain any concrete methods
+multiple inheritance is possible using interfaces
