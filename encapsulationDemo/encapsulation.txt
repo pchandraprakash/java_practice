@@ -1,0 +1,5 @@
+Encapsulation is a process of biding data and code together as a single unit,
+which allows to hide the data from any further modification. 
+We can achieve encapsulation in Java by:
+- Declaring the variables of a class as private.
+- Providing public setter and getter methods to modify and view the variables values.
